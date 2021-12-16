@@ -572,6 +572,99 @@ section{
     width: 100%;
 }
 
+.cart .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(32rem, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+  
+.cart .box-container .box {
+    border-radius: .5rem;
+    border: 0.2rem solid var(--main-color);
+    padding: 3rem 2rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.cart .box-container .box .fa-times {
+    position: absolute;
+    top: 1rem;
+    right: 1.5rem;
+    font-size: 2.5rem;
+    cursor: pointer;
+    color: var(--black-text-color);
+}
+  
+.cart .box-container .box .fa-times:hover {
+    color: var(--main-color);
+}
+  
+.cart .box-container .box img {
+    height: 13rem;
+    width: 13rem;
+}
+  
+.cart .box-container .box .content h3 {
+    font-size: 1.7rem;
+    padding-bottom: .5rem;
+    color: var(--black-text-color);
+}
+  
+.cart .box-container .box .content .quantity {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    padding: 1rem 0;
+}
+  
+.cart .box-container .box .content .quantity span {
+    color: var(--grey-text);
+    font-size: 1.5rem;
+}
+  
+.cart .box-container .box .content .quantity input {
+    width: 8rem;
+    font-size: 1.5rem;
+    color: var(--grey-text);
+    padding: .5rem 1rem;
+    border: .1rem solid var(--main-color);
+    background: none;
+}
+  
+.cart .box-container .box .content .price {
+    font-size: 2rem;
+    color: var(--main-color);
+}
+  
+.cart .box-container .box .content .price span {
+    color: var(--black-text-color);
+    font-size: 1.5rem;
+    font-weight: lighter;
+}
+
+.cart .box-container .button {
+    padding:.5rem;
+}
+  
+.cart .cart-total {
+    padding: 2rem;
+    border-radius: .5rem;
+    border: .1rem solid var(--main-color);
+}
+  
+.cart .cart-total h3 {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    color: var(--black-text-color);
+}
+  
+.cart .cart-total h3 span {
+    color: var(--main-color);
+}
+
 #scroll-top{
     position: fixed;
     top:-120%;
