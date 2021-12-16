@@ -1,0 +1,54 @@
+.contact .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap:1.5rem;
+}
+
+.contact .box-container .map{
+    flex:1 1 42rem;
+    width: 100%;
+    padding:2rem;
+    box-shadow: var(--box-shadow);
+    border:var(--border);
+    border-radius: .5rem;
+    background: var(--white-bg-color);
+}
+
+.contact .box-container .content{
+    flex:1 1 42rem;
+    width: 100%;
+    padding:2rem;
+    box-shadow: var(--box-shadow);
+    border:var(--border);
+    border-radius: .5rem;
+    background: var(--white-bg-color);
+}
+
+.contact .box-container .content h3 {
+    color: var(--black-text-color);
+    width:100%;
+    font-size: 2rem;
+    padding-bottom: 1.2rem;
+}
+
+.contact .box-container .content h3 i {
+    color: var(--main-color);
+}
+
+.contact .box-container .content .info a{
+    color: var(--black-text-color);
+    font-size: 1rem;
+    font-weight: bolder;
+    display: flex;
+    flex-wrap: wrap;
+    gap:1rem;
+    padding-bottom: 2rem;
+}
+
+.contact .box-container .content .info a span{
+    color: var(--main-color);
+}
+
+.contact .box-container .content .info a i{
+    color: var(--main-color);
+}
