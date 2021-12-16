@@ -42,41 +42,48 @@
 
     <!-- bottom navbar ends -->
 
-    <!-- login section starts  -->
+    <!-- register section starts  -->
 
-        <section class="login" id="login">
+        <section class="register" id="register">
 
             <div class="center">
                 <form>
-                    <h3>Login</h3>
+                    <h3>Register</h3>
+                    <div class="inputBox">
+                        <i class="fas fa-user"></i>
+                        <input type="text" placeholder="Username">
+                    </div>
                     <div class="inputBox">
                         <i class="fas fa-envelope"></i>
                         <input type="email" placeholder="Email">
                     </div>
                     <div class="inputBox">
+                        <i class="fas fa-mobile-alt"></i>
+                        <input type="number" placeholder="Contact number">
+                    </div>
+                    <div class="inputBox">
                         <i class="fas fa-lock"></i>
                         <input type="password" placeholder="Password">
                     </div>
-                    <div class="forgot-password">
-                        <a href="/forgotpassword.html">Forgot password?</a>
+                    <div class="inputBox">
+                        <i class="fas fa-lock"></i>
+                        <input type="password" placeholder="Confirm password">
                     </div>
-                    <div class="form-inline">
-                        <label>
-                            <input type="checkbox" name="remember"> Remember me
-                        </label>
+                    <div class="accept">
+                        <label>By creating an account you agree to our <a>Terms & Privacy</a>.</label>
                     </div>
                     <div class="button">
-                        <a href="/index.html" class="btn">Login</a>
+                        <a href="/login.html" class="btn">Register</a>
                     </div>
                 </form>
                 <div class="redirect">
-                    <label>Don't have account? <a href="/register.html">Register here</a>.</label>
+                    <label>Already have an account? <a href="/login.html">Log in</a>.</label>
                 </div>
             </div>
 
         </section>
 
-    <!-- login section ends -->
+    <!-- register section ends -->
 
     <!--footer section starts-->
         <footer class="footer">
@@ -114,7 +121,7 @@
     <!--footer section ends-->
 
     <!--scroll up button -->
-    <a href="#login" class="fas fa-angle-up" id="scroll-top"></a>
+    <a href="#register" class="fas fa-angle-up" id="scroll-top"></a>
     <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
     <script src="js/script.js"></script>
 
