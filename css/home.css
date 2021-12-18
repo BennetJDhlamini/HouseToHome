@@ -1,8 +1,21 @@
+:root {
+    --main-color: #36363554;
+    --body-bg-color: rgb(243, 243, 243);
+    --grey-text: #666;
+    --light-grey: #779;
+    --border-color: #ccc;
+    --white-bg-color : #fff;
+    --white-text-color: #fff;
+    --black-text-color: black;
+    --box-shadow:0 .5rem 1.5rem rgba(0,0,0,.1);
+    --border:.1rem solid rgba(0,0,0,.1);
+}
+
 .home{
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background:url(../images/home-img-2.png) no-repeat;
+    background:url(../images/home-bg.jpg) no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -21,14 +34,23 @@
     text-align: center;
 }
 
-.home .content h3 span{
-    color: var(--main-color);
-}
-
 .home .content p{
     font-size: 2rem;
     font-weight: lighter;
     line-height: 1.8;
     padding:1rem 0;
-    color:var(--black-text-color);
+    color:var(--white-text-color);
+}
+
+.home .content .btn {
+    color: var(--black-text-color) ;
+    background: var(--white-bg-color);
+}
+
+@media (max-width:768px){
+
+    .home{
+        min-height: 92vh;
+    }
+
 }
