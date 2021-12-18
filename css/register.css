@@ -1,7 +1,6 @@
 .box-container {
     margin: auto;
     width: 60%;
-    border-radius: .5rem;
     background: var(--white-bg-color);
     padding: 2rem;
 }
@@ -41,42 +40,19 @@
     border: none;
 }
 
-
 .box-container form .accept,
 .box-container .redirect {
     text-align: center;
 }
 
 .box-container form .accept label,
-.box-container .redirect label,
-.box-container .forgot-password a {
+.box-container .redirect label {
     font-size: 1.7rem;
 }
 
 .box-container form .accept label a,
-.box-container .redirect label a,
-.box-container .forgot-password a{
+.box-container .redirect label a{
     color: var(--main-color);
-}
-
-.box-container .forgot-password {
-    text-align: left;
-}
-
-.box-container .form-inline {
-    padding-top: .8rem;
-    padding-bottom: .8rem;
-}
-
-.box-container .form-inline label {
-    margin: 0.3rem 0.6rem 0.3rem 0;
-    font-size: 1.7rem;
-}
-
-.box-container .form-inline input {
-    vertical-align: middle;
-    margin: 0.3rem 0.6rem 0.3rem 0;
-    padding: 0.6rem;
 }
 
 .box-container .button {
