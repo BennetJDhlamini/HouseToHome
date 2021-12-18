@@ -1,7 +1,6 @@
 .box-container {
     margin: auto;
     width: 60%;
-    border-radius: .5rem;
     background: var(--white-bg-color);
     padding: 2rem;
 }
@@ -41,19 +40,15 @@
     border: none;
 }
 
-
-.box-container form .accept,
 .box-container .redirect {
     text-align: center;
 }
 
-.box-container form .accept label,
 .box-container .redirect label,
 .box-container .forgot-password a {
     font-size: 1.7rem;
 }
 
-.box-container form .accept label a,
 .box-container .redirect label a,
 .box-container .forgot-password a{
     color: var(--main-color);
