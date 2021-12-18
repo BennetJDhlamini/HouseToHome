@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/home.css">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="js/fullclip.js"></script>
 
 </head>
 <body>
@@ -40,54 +42,22 @@
 
     <!-- bottom navbar ends -->
 
-    <!-- home section starts  -->
-
-        <section class="home" id="home">
-
-            <div class="content">
-                <h3>Turn your house into a <span>home</span></h3>
-                <p>Get yourself beatiful and comfortable furniture that will turn your house into a home.</p>
-                <a href="/products.html" class="btn" title="Shop now">Shop now</a>
-            </div>
-
-        </section>
-
-    <!-- home section ends -->
-
-    <!--footer section starts-->
-        <footer class="footer">
-
-            <div class="footer-container">
-
-                <div class="footer-box">
-                    <h3>Quick links</h3>
-                    <a href="/index.html" title="home"><i class="fas fa-arrow-right"></i> Home</a>
-                    <a href="/about.html" title="about"><i class="fas fa-arrow-right"></i> About</a>
-                    <a href="/products.html" title="products"><i class="fas fa-arrow-right"></i> Products</a>
-                    <a href="/contact.html" title="contact"><i class="fas fa-arrow-right"></i> Contact</a>
-                </div>
-
-                <div class="footer-box">
-                    <h3>Contact info</h3>
-                    <a> <i class="fas fa-phone-alt"></i> 016 111 1111 </a>
-                    <a> <i class="fas fa-envelope"></i> email@domain.com </a>
-                </div>
-
-                <div class="footer-box">
-                    <h3>Web info</h3>
-                    <a> <i class="fas fa-arrow-right"></i> Privacy Policy </a>
-                    <a> <i class="fas fa-arrow-right"></i> Cookie Policy </a>
-                    <a> <i class="fas fa-arrow-right"></i> Web Usage </a>
-                    <a> <i class="fas fa-arrow-right"></i> Terms And Conditions </a>
-                    <a href="https://sacoronavirus.co.za/" title="SA Corona Virus"> <i class="fas fa-arrow-right"></i> Covid-19 SA Resource Portal </a>
-                </div>
-
-            </div>
-
-            <div class="credit"> &copy; 2021 - HouseToHome - Developed by <a href="mailto: bennetjdhlamini@gmail.com" title="Send me an email">bennetjdhlamini@gmail.com</a> || All rights reserved </div>
-            
-        </footer>
-    <!--footer section ends-->
+    <section class="fullBackground">
+        
+        <div class="content">
+            <h3>Turn your house into a <span>home</span></h3>
+            <p>Get yourself beatiful and comfortable furniture that will turn your house into a home.</p>
+            <a href="/products.html" class="btn" title="Shop now">Shop now</a>
+        </div>
+        
+      </section>
+    <script>
+        $('.fullBackground').fullClip({
+            images: ['images/h4.jpg','images/h1.jpg' ,'images/home.jpg', 'images/home-2.jpg'],
+            transitionTime: 2000,
+            wait: 5000
+        });
+    </script>
 
 </body>
 </html>
