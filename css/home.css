@@ -11,7 +11,7 @@
     --border:.1rem solid rgba(0,0,0,.1);
 }
 
-.fullBackground {
+.home {
     min-height: 100vh;
     display: flex;
     align-items: center;
@@ -19,21 +19,21 @@
     background-position: center;
   }
 
-.fullBackground .content{
+.home .content{
     margin: auto;
     align-items: center;
     text-align: center;
     width: 60%;
 }
 
-.fullBackground .content h3{
+.home .content h3{
     font-size: 4rem;
     color:var(--white-text-color);
     align-items: center;
     text-align: center;
 }
 
-.fullBackground .content p{
+.home .content p{
     font-size: 2rem;
     font-weight: lighter;
     line-height: 1.8;
@@ -41,14 +41,14 @@
     color:var(--white-text-color);
 }
 
-.fullBackground .content .btn {
+.home .content .btn {
     color: var(--white-text-color) ;
     background: var(--black-text-color);
 }
 
 @media (max-width:768px){
 
-    .fullBackground{
+    .home{
         min-height: 92vh;
     }
 

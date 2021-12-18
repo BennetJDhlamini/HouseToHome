@@ -1,6 +1,6 @@
 (function($) {
   // defaults
-  $.fn.fullClip = function(options) {
+  $.fn.homeBackground = function(options) {
     var settings = $.extend({
       current: 0,
       images: [],
@@ -16,7 +16,7 @@
     }
 
     // sort out the transitions + specify vendor prefixes
-    $('.fullBackground')
+    $('.home')
       .css('background-image', 'url(' + settings.images[settings.current] + ')')
       .css('-webkit-transition', 'background ' + settings.transitionTime + 's ease-in-out')
       .css('-moz-transition', 'background ' + settings.transitionTime + 'ms ease-in-out')
@@ -34,7 +34,7 @@
     // change the background image
     (function update() {
       settings.current = (settings.current + 1) % settings.images.length;
-        $('.fullBackground').css('background-image', 'url(' + settings.images[settings.current] + ')');
+        $('.home').css('background-image', 'url(' + settings.images[settings.current] + ')');
         setTimeout(update, settings.wait);
     }());
 }}(jQuery));
