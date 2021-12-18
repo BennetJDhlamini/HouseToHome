@@ -43,8 +43,8 @@
 }
 
 .home .content .btn {
-    color: var(--black-text-color) ;
-    background: var(--white-bg-color);
+    color: var(--white-text-color) ;
+    background: var(--black-text-color);
 }
 
 @media (max-width:768px){
