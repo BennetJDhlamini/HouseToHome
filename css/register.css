@@ -1,4 +1,4 @@
-.center {
+.box-container {
     margin: auto;
     width: 60%;
     border-radius: .5rem;
@@ -6,34 +6,33 @@
     padding: 2rem;
 }
 
-.center form h3{
+.box-container form h3{
     font-size: 3rem;
     text-align: center;
 }
 
-.center form p{
+.box-container form p{
     font-size: 1.7rem;
     text-align: center;
 }
 
-.center form .inputBox{
+.box-container form .inputBox{
     margin-top: 3rem;
     margin-bottom:1.7rem ;
     border: .2rem solid var(--grey-text);
-    border-radius: .5rem;
     padding: 2rem;
 }
 
-.center form .inputBox:hover{
+.box-container form .inputBox:hover{
     border: .2rem solid var(--main-color);
 }
 
-.center form .inputBox i{
+.box-container form .inputBox i{
     font-size: 2rem;
     color: var(--main-color);
 }
 
-.center form .inputBox input{
+.box-container form .inputBox input{
     width: 90%;
     font-size: 2rem;
     color:var(--black-text-color);
@@ -43,55 +42,55 @@
 }
 
 
-.center form .accept,
-.center .redirect {
+.box-container form .accept,
+.box-container .redirect {
     text-align: center;
 }
 
-.center form .accept label,
-.center .redirect label,
-.center .forgot-password a {
+.box-container form .accept label,
+.box-container .redirect label,
+.box-container .forgot-password a {
     font-size: 1.7rem;
 }
 
-.center form .accept label a,
-.center .redirect label a,
-.center .forgot-password a{
+.box-container form .accept label a,
+.box-container .redirect label a,
+.box-container .forgot-password a{
     color: var(--main-color);
 }
 
-.center .forgot-password {
+.box-container .forgot-password {
     text-align: left;
 }
 
-.center .form-inline {
+.box-container .form-inline {
     padding-top: .8rem;
     padding-bottom: .8rem;
 }
 
-.center .form-inline label {
+.box-container .form-inline label {
     margin: 0.3rem 0.6rem 0.3rem 0;
     font-size: 1.7rem;
 }
 
-.center .form-inline input {
+.box-container .form-inline input {
     vertical-align: middle;
     margin: 0.3rem 0.6rem 0.3rem 0;
     padding: 0.6rem;
 }
 
-.center .button {
+.box-container .button {
     padding-bottom: 2rem;
     text-align: center;
 }
 
-.center .button .btn {
+.box-container .button .btn {
     width: 100%;
 }
 
 @media (max-width:768px){
 
-    .center{
+    .box-container{
         width: 100%;
     }
 
