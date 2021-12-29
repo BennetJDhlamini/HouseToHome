@@ -52,7 +52,7 @@
     font-size: 1.5rem;
 }
   
-.cart .box-container .box .content .quantity input {
+.cart .box-container .box .content .quantity select {
     width: 8rem;
     font-size: 1.5rem;
     color: var(--grey-text);

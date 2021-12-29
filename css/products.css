@@ -43,7 +43,7 @@
     font-size: 1.5rem;
 }
 
-.products .box-container .box .content .quantity input {
+.products .box-container .box .content .quantity select {
     width: 8rem;
     font-size: 1.5rem;
     color: var(--grey-text);
